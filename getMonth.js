@@ -1,3 +1,3 @@
-var arr2 = arr1.reverse();
-console.log(false === '0');
-console.log( "A" - "B" + 2);
+function myAPITS(someString: string, someNum: number) { ... };
+const minNumber = arr => Math.min(...arr);
+var c = new Counter(); c.add(); c.add(); c.add();
