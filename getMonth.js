@@ -1,1 +1,1 @@
-var DELIM_SIZE = 4;
+const currentDate = () => new Date().toLocaleDateString('en-US');
