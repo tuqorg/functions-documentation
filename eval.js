@@ -1,3 +1,3 @@
-const isEmptyArray = arr => !arr.length;
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-const channelName = getChannelName(channel);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const merge = (a, b) => [...a, ...b];
+const goToTop = () => window.scrollTo(0, 0);
