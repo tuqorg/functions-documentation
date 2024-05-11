@@ -1,3 +1,3 @@
-var arr1 = "john".split('');
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const maxNumber = arr => Math.max(...arr);
+const randomString = () => Math.random().toString(36).slice(2);
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
