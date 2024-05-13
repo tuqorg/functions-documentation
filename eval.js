@@ -1,3 +1,3 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const merge = (a, b) => [...a, ...b];
-const goToTop = () => window.scrollTo(0, 0);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const timeFromDate = date => date.toTimeString().slice(0, 8);
