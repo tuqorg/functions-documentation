@@ -1,3 +1,1 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+console.log(typeof typeof 1);
