@@ -1,3 +1,3 @@
-const isTabInView = () => !document.hidden;
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const uniqueArray = arr => [...new Set(arr)];
+console.log( "A" - "B" + 2);
+const uniqueArr = (arr) => [...new Set(arr)];
