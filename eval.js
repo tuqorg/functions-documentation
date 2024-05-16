@@ -1,1 +1,1 @@
-console.log(typeof typeof 1);
+const value = ( 5 < 7 ) ? "True" : "False" ;
