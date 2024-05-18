@@ -1,2 +1,2 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
