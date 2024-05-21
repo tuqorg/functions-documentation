@@ -1,2 +1,2 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+console.log("1 || 2 = "+(1 || 2));
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
