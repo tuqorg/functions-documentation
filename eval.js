@@ -1,2 +1,3 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+var arr2 = arr1.reverse();
+console.log("1 && 2 = "+(1 && 2));
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
