@@ -1,3 +1,3 @@
-var arr2 = arr1.reverse();
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
 console.log("1 && 2 = "+(1 && 2));
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
