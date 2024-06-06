@@ -1,3 +1,3 @@
-console.log(typeof typeof 1);
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
