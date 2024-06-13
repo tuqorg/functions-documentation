@@ -1,2 +1,2 @@
-const randomString = () => Math.random().toString(36).slice(2);
-var arr3 = "jones".split('');
+function myAPITS(someString: string, someNum: number) { ... };
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
