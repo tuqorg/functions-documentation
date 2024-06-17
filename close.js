@@ -1,2 +1,2 @@
-const stringReverse = str => str.split("").reverse().join("");
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
