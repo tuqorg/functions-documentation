@@ -1,2 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const isTabInView = () => !document.hidden;
+console.log(+"1" +  "1" + "2");
