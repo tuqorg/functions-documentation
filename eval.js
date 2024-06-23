@@ -1,3 +1,2 @@
-console.log( "A" - "B" + "2");
-console.log("0 || 1 = "+(0 || 1));
-var pattern = {};
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const allResults = await Promise.all(items.map(async (item) => {}));
