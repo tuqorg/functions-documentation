@@ -1,2 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const allResults = await Promise.all(items.map(async (item) => {}));
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
