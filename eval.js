@@ -1,3 +1,3 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const appName = getAppName(channel);
