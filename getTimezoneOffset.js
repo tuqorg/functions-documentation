@@ -1,2 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+console.log(+"1" +  "1" + "2");
+const stringReverse = str => str.split("").reverse().join("");
