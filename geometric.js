@@ -1,2 +1,3 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+function myAPITS(someString: string, someNum: number) { ... };
+console.log(false == '0');
+const isEmptyArray = arr => !arr.length;
