@@ -1,2 +1,2 @@
 const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-var arr2 = arr1.reverse();
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
