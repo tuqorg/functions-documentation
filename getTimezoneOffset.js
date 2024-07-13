@@ -1,3 +1,2 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-console.log(+"1" +  "1" + "2");
-const stringReverse = str => str.split("").reverse().join("");
+const lastElement = arr => arr[arr.length - 1];
+const apmRootPath = path.join(repositoryRootPath, 'apm');
