@@ -1,2 +1,2 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+console.log("0 || 1 = "+(0 || 1));
