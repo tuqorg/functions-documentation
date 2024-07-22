@@ -1,2 +1,2 @@
-const lastElement = arr => arr[arr.length - 1];
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
