@@ -1,3 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-console.log(false == '0');
-const isEmptyArray = arr => !arr.length;
+const merge = [...new Set(a.concat(b))];
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const channelName = getChannelName(channel);
