@@ -1,1 +1,1 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const removeDuplicates = (arr) => [...new Set(arr)];
